@@ -9,6 +9,7 @@ Clone this repo and download latest version of Throttlestop from https://www.tec
 
 Place the extracted files in the CurrentVersion folder
 * Don't overwrite Throttlestop.ini - This is setting defaults to prevent from running in background only
+* If you want to create a preconfigured build for reinstall only - replace the ini with your pre-existing Throttlestop.ini(This isn't advised for installing on pc's that the ini wasn't configured for as the voltages may not work with the CPU 
 * New files that may be added in new versions will also need to be linked in the [Files] section of the SetupScript.iss
 
 Build SetupScript.iss with InnoSetupCompiler
