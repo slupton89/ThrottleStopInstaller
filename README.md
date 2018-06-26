@@ -8,6 +8,7 @@ Check releases for the latest version of the installer. To build or update yours
 Clone this repo and download latest version of Throttlestop from https://www.techpowerup.com/download/techpowerup-throttlestop/
 
 Place the extracted files in the CurrentVersion folder
+* Don't overwrite Throttlestop.ini - This is setting defaults to prevent from running in background only
 * New files that may be added in new versions will also need to be linked in the [Files] section of the SetupScript.iss
 
 Build SetupScript.iss with InnoSetupCompiler
